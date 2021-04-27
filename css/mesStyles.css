@@ -1,0 +1,94 @@
+ 
+ 
+ #info { border : solid 10px black;
+  margin :50 px;
+  padding: 30 px;
+  background-color : lightgrey;
+}
+
+#inscription { border : solid 10px black;
+
+    padding: 30 px;
+    background-color : yellow;
+  }
+
+#pret  { border : solid 10px black;
+
+    margin: 50 px;
+    background-color : pink;
+  }
+
+#Horaires { 
+  
+  font-family : Arial;
+  background-color :rgb(255, 229 , 155)
+  }
+  section {
+     font-family : Arial;
+     background-color :rgb(255, 229 , 155)
+ }
+ #formulaire  {
+      position : relative;
+       margin: auto;
+       width : 300 px;
+  }
+  #acceuil  {
+    border : solid 10px rgb(53, 1, 30);
+    margin: 50 px;
+    background-color : pink;
+}
+  #lbSaisie  {
+    display : inline-block;
+     width : 30 px;
+     line-height : 30 px;
+}
+.submit {
+    width : 700 px;
+
+
+}
+.imacceuil2 {
+    float : right;
+   
+}
+
+.entoureImg {
+    float : right;
+   
+}
+#fondPestin {
+ background-image: url ("projet_web/image/im2.jpg");
+color: yellow ;
+font-size: 22px;
+font-style: oblique;
+text-align: left;
+font-weight: bold;
+}
+ body {
+
+font-size:100% ;
+ }
+@media screen and(max-width : 980px) , handheld and (max-width :980 px){
+ body{
+font-size :130%;
+background-color: #d3d3d3;
+}
+.affichage{
+ display : none;
+
+}
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

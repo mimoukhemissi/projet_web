@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div style ="text-align : center" >
+
+<button onclick="playPause()" > Play/Pause </button>
+<button onclick="maKeBig()" > Big </button>
+<button onclick="maKeSmall()" > Small </button>
+<button onclick="maKeNormal()" > Normal </button>
+
+<br><br>
+
+<video id="video1" width="420" >
+<source src="image/INSPIRATIONAL.mp4" type="video/mp4">
+</video>
+</div>
+ <script>
+var myVideo = document.getElementById ("video1");
+
+function playPause() {
+if(myVideo.paused)
+myVideo.play();
+ else 
+ myVideo.pause () ;}
+
+ function maKeBig() {
+     myVideo.width = 1000;
+ }
+ function maKeSmall() {
+     myVideo.width = 400;
+ }
+ function maKeNormal() {
+     myVideo.width = 420;
+ }
+
+
+ </script>
+
+</body>
+ </html>
